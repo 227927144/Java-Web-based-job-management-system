@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.mainmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #777;
+}
+.mainmenu li {
+    float: left;
+}
+.mainmenu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.mainmenu li a:hover {
+    background-color: #222;
+}
+.mainmenu li a.active {
+    color: white;
+    background-color: #d4c4f0;
+}
